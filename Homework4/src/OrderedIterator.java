@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface OrderedIterator {
+import java.util.Iterator;
+
+public interface OrderedIterator extends Iterator {
+    public int put(Comparable comparable);
 }
